@@ -105,7 +105,7 @@ Use the removeLastFlavor function below to do the following:
 
 function removeLastFlavor(arrayName){
    arrayName.pop();
-   return arrayName;
+   return arrayPopped;
 }
 
 
@@ -121,8 +121,8 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 
-function getFlavorByIndex(/*your code here*/){
-    /*your code here*/
+function getFlavorByIndex(array, index){
+    return array[index];
 }
 
 
