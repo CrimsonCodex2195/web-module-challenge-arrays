@@ -103,9 +103,9 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(arrayName){
-   arrayName.pop();
-   return arrayPopped;
+function removeLastFlavor(array){
+   array.pop();
+   return array;
 }
 
 
@@ -142,8 +142,9 @@ Use the removeFlavorByName function below to do the following:
 */
 
 
-function removeFlavorByName(/*your code here*/){
-    /*your code here*/
+function removeFlavorByName(array, flavor){
+    array.splice(array.indexOf(flavor), 1);
+    return array;
 }
 
 
