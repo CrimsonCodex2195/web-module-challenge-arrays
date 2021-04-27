@@ -103,8 +103,9 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
-   /*your code here*/
+function removeLastFlavor(arrayName){
+   arrayName.pop();
+   return arrayName;
 }
 
 
